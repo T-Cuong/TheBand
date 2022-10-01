@@ -50,6 +50,7 @@ html{
   border-radius: 5%;
   border: none;
   cursor: pointer;
+  text-align: center;/*25|11:17*/
 }
 
 .btn:hover {
@@ -58,11 +59,15 @@ html{
 }
 
 .mt-8 {
-  margin-top: 8px;
+  margin-top: 8px !important;
 }
 
 .mt-16 {
-  margin-top: 16px;/*24| 9:38*/
+  margin-top: 16px !important;/*24| 9:38*/
+}
+
+.mt-32 {
+   margin-top: 32px !important;/*25|1:21*/
 }
 
 .row {

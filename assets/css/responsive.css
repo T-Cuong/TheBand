@@ -1,6 +1,11 @@
 @media (max-width: 740px) {
+    .s-full-width,/*25|8:49*/
     .s-col-full {
-        width: 100%;
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;/*25|7:18*/
     }
 
     #header {
@@ -50,4 +55,10 @@
     #content .member-img {/*24| 5:16*/
         width: 60%;
     }
+
+    .contact-form {/*24|5:03*/
+        margin-top: 16px;
+    }
+
+
 }
