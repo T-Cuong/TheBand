@@ -62,7 +62,7 @@ html{
 }
 
 .mt-16 {
-  margin-top: 16px;
+  margin-top: 16px;/*24| 9:38*/
 }
 
 .row {
@@ -282,7 +282,7 @@ background-color: #ccc;
 }
  
 #content .member-list {
-   margin-top: 48px;
+   margin-top: 32px;/*24| 13:31*/
    /* overflow: hidden;giai thich bai 11 gg doc */
 }
  
@@ -347,7 +347,7 @@ background-color: #ccc;
    margin-right: -8px; */
    /* padding-bottom: 48px; */
    /* margin: 32px -8px 48px -8px;top left right bottom */
-   margin-top: 32px;
+   margin-top: 16px;/*24|8:59*/
 }
 .place-item  {
  
