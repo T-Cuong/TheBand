@@ -1,4 +1,44 @@
+/*Table & mobile*/
+@media (max-width: 1023px) {/*26|4:46*/
+    .btn {
+        padding: 15px 16px;
+    }
+
+    #nav .subnav a {/*26|12:03*/
+        padding: 5px 12px;/*26|12:52*/
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    .contact-info {
+        line-height: 2; /*26|14:00*/
+    }
+   
+    .socials-list {
+        font-size: 48px;/*26| 7:55*/
+    }
+
+    #footer .socials-list a {
+        margin: 0 8px; /*26|9:07*/
+    }
+
+    #footer .coppyright a { /*26| 11:00*/
+        padding: 12px 0;
+        display: inline-block;
+    }
+} 
+
+/*Tablet*/
+@media (min-width: 740px) and (max-width:1023px){
+    
+}
+
+/*Mobile*/
 @media (max-width: 740px) {
+
+    
     .s-full-width,/*25|8:49*/
     .s-col-full {
         width: 100% !important;
@@ -43,7 +83,7 @@
 
     #nav .subnav a{
         color: #fff;/*23|16:07 */
-        padding: 5px 41px;/*23|17:02*/
+        padding: 5px 41px; /*23|17:02*/
     }
     
     /* #content .member-item {/*24| 4:17*/
@@ -57,7 +97,7 @@
     }
 
     .contact-form {/*24|5:03*/
-        margin-top: 16px;
+        margin-top: 32px;/*26|17:14*/
     }
 
 
