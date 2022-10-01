@@ -1,14 +1,7 @@
 @media (max-width: 740px) {
-    #nav {
-        display: block;
-    }
 
-    #nav > li {
-        display: block;
-    }
-
-    #nav > li:first-child {
-        display: inline-block;
+    #header {
+        overflow: hidden;/*23|14:05*/
     }
 
     #header .mobile-menu-btn {
@@ -18,4 +11,31 @@
     #header .search-btn {
         display: none;
     }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;/*23| 18:34*/
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav{
+        position: initial;/*23|15:04*/
+        background: #333;/*23| 15:46*/
+    }
+
+    #nav .subnav a{
+        color: #fff;/*23|16:07 */
+        padding: 5px 41px;/*23|17:02*/
+    }
+    
 }

@@ -109,7 +109,7 @@ html{
    height: 46px;
    background-color: #000;
    z-index: 1;/*chieu cao cua header */
-   overflow: hidden;
+   /* overflow: hidden; 23.Mobile fix bug submenu 13:43 */
 }
  
 #nav{/*de cho thanh nav chi chua block boc cac chu home band tour contact more thoi chu ko bao het ca header*/

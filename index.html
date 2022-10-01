@@ -260,7 +260,13 @@
         for (var i = 0; i < menuItems.length; i++) {
             var menuItem = menuItems[i];
             menuItem.onclick = function() {
-                header.style.height = null;//an vao thi an menu
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');//this la the ma ta click vao
+                if (isParentMenu) {
+                    event.preventDefault()
+                }
+                else{
+                    header.sxtyle.height = null;//an vao thi an menu
+                }            
             }
         }
     </script>
